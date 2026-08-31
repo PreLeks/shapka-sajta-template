@@ -11,41 +11,37 @@
 <body>
 
   <header class="header">
-    <div class="header__content">
-      <span class="header__name">
-        DevPath
-      </span>
+    <div class="container header__container">
+      <a href="#" class="header__logo">DevPath</a>
 
-      <nav class="header__nav">
-        <ul class="header__list">
-          <li class="header__item">
-            <a href="#" class="header__link">
-              Главная
-            </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Главная</a>
           </li>
-          <li class="header__item">
-            <a href="#" class="header__link">
-              Задания
-            </a>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Задания</a>
           </li>
-          <li class="header__item">
-            <a href="#" class="header__link">
-              Статьи
-            </a>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Статьи</a>
           </li>
-          <li class="header__item">
-            <a href="#" class="header__link">
-              Прогресс
-            </a>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Прогресс</a>
           </li>
         </ul>
       </nav>
 
-      <div class="header__actions">
-        <a href="#" class="header__search">
-          <img src="img/search.svg" alt="Search" class="header__icon">
-        </a>
-        <button type="button" class="header__button">Начать обучение</button>
+      <div class="header__btns">
+        <button type="button" class="header__search" aria-label="Открыть поиск">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 21L16.66 16.66" stroke="#0F172A" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+            <path
+              d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </button>
+        <button type="button" class="header__start">Начать обучение</button>
       </div>
     </div>
   </header>
